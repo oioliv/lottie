@@ -1,25 +1,26 @@
 import { useState } from "react";
-import * as Animations from "./animations";
+import * as animations from "./animations";
+import Lottie from "lottie-react";
 import "./styles.css";
 
 export default function App() {
-  const [selectedAnimation, useSelectedAnimation] = useState("Example");
-  const Animation = Animations[selectedAnimation];
+  const [selectedAnimation, useSelectedAnimation] = useState(
+    Object.keys(animations)[0]
+  );
   return (
     <div className="App">
-      <h1>Hello, je suis Olivia</h1>
-
+      <h1>My lovely animations</h1>
       <select
         value={selectedAnimation}
         onChange={(e) => useSelectedAnimation(e.target.value)}
       >
-        {Object.keys(Animations).map((a, i) => (
+        {Object.keys(animations).map((a, i) => (
           <option key={i} value={a}>
             {a}
           </option>
         ))}
       </select>
-      <Animation />
+      <Lottie animationData={animations[selectedAnimation]} loop={true} />
     </div>
   );
 }

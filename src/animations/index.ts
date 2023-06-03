@@ -1,3 +1,3 @@
-import Example from "./example";
-import Hamster from "./example2";
-export { Example, Hamster };
+import GroovyWalk from "./groovyWalk.json";
+import Hamster from "./hamster.json";
+export { GroovyWalk, Hamster };
