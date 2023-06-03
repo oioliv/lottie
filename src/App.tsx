@@ -20,9 +20,7 @@ export default function App() {
           </option>
         ))}
       </select>
-      <div className="animation-container">
-        <Lottie animationData={animations[selectedAnimation]} loop={true} />
-      </div>
+      <Lottie animationData={animations[selectedAnimation]} loop={true} />
     </div>
   );
 }
