@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lottie/static/css/main.fc5c2c69.css",
-    "main.js": "/lottie/static/js/main.ebe2f20f.js",
+    "main.css": "/lottie/static/css/main.c4534cc7.css",
+    "main.js": "/lottie/static/js/main.1c1c5798.js",
     "index.html": "/lottie/index.html",
-    "main.fc5c2c69.css.map": "/lottie/static/css/main.fc5c2c69.css.map",
-    "main.ebe2f20f.js.map": "/lottie/static/js/main.ebe2f20f.js.map"
+    "main.c4534cc7.css.map": "/lottie/static/css/main.c4534cc7.css.map",
+    "main.1c1c5798.js.map": "/lottie/static/js/main.1c1c5798.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc5c2c69.css",
-    "static/js/main.ebe2f20f.js"
+    "static/css/main.c4534cc7.css",
+    "static/js/main.1c1c5798.js"
   ]
 }
