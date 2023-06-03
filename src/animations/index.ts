@@ -1,5 +1,6 @@
-import GroovyWalk from "./groovyWalk.json";
-import Hamster from "./hamster.json";
-import Example from "./example.json";
+import GroovyWalk from "./groovyWalk";
+import Hamster from "./hamster";
+import Example from "./example";
+import Interactivity from "./interactivity";
 
-export { GroovyWalk, Hamster, Example };
+export { GroovyWalk, Hamster, Example, Interactivity };

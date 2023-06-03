@@ -7,6 +7,9 @@ export default function App() {
   const [selectedAnimation, useSelectedAnimation] = useState(
     Object.keys(animations)[0]
   );
+  const animationData = animations[selectedAnimation].animationData;
+  const interactivityData = animations[selectedAnimation].interactivityData;
+  console.log(animations, selectedAnimation);
   return (
     <div className="App">
       <h1>My lovely animations</h1>
@@ -21,7 +24,11 @@ export default function App() {
         ))}
       </select>
       <div style={{ width: "70vw", margin: "0 auto" }}>
-        <Lottie animationData={animations[selectedAnimation]} loop={true} />
+        <Lottie
+          animationData={animationData}
+          loop={true}
+          {...(interactivityData && { interactivity: interactivityData })}
+        />
       </div>
     </div>
   );
