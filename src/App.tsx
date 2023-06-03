@@ -9,7 +9,7 @@ export default function App() {
   );
   const animationData = animations[selectedAnimation].animationData;
   const interactivityData = animations[selectedAnimation].interactivityData;
-  console.log(animations, selectedAnimation);
+  console.log(animationData, interactivityData);
   return (
     <div className="App">
       <h1>My lovely animations</h1>
@@ -26,8 +26,7 @@ export default function App() {
       <div style={{ width: "70vw", margin: "0 auto" }}>
         <Lottie
           animationData={animationData}
-          loop={true}
-          {...(interactivityData && { interactivity: interactivityData })}
+          interactivity={interactivityData}
         />
       </div>
     </div>

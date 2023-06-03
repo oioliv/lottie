@@ -1,8 +1,6 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-}
-
-svg  {
-  width: unset !important;
+  margin-top: 200px;
+  margin-bottom: 5000px;
 }
