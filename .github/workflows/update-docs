@@ -1,4 +1,4 @@
-name: Build and Test React Application
+name: Deploy new docs version
 
 # Controls when the action will run. 
 on:
