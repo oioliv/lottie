@@ -26,6 +26,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://oioliv.github.io/lottie",
   "browserslist": [
     ">0.2%",
     "not dead",
